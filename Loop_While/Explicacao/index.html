@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laço de Repetição</title>
+</head>
+<body>
+    <script>
+        contador = 0;
+        while (contador <= 10) {
+            let resultado;
+            let tabuada = 2;
+            resultado = tabuada * contador;
+            console.log(contador + 'x' + tabuada + '=' + resultado);
+            contador++;
+        }
+
+        decremento = 1000;
+        while (decremento >= 0) {
+            exibir(decremento);
+            decremento = decremento - 100;
+        }
+        function exibir(decremento) {
+            console.log(decremento)
+        }
+    </script>
+    
+</body>
+</html>
