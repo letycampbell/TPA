@@ -7,6 +7,20 @@
 </head>
 <body>
     <script>
+        let contador = 1;
+        let resultado;
+        let confirm;
+
+        while (contador <= 100) {
+            let confirm = prompt("Voce deseja continuar?")
+            console.log(contador)
+
+            if (confirm == "sim") {
+                contador++;
+            } else {
+                contador = 100;
+            }
+        }
         
     </script>
     <!-- Faça um programa que irá apresentar somente os números ímpares de 1 até 100.  -->
